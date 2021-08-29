@@ -1,0 +1,98 @@
+* {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center; 
+}
+
+#logo {
+    float: left;
+    width: 20%;
+}
+
+#textologo2 {
+    float: right;
+    width: 80%;
+}
+
+#texto {
+    float: left;
+    width: 70%;
+}
+
+#logo2 {
+    float: right;
+    width: 30%;
+}
+
+
+body {
+    background:linear-gradient(#00bf8f, #001510, grey);
+}
+ 
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-family:Ink Free;
+    text-align-last: center;
+    color: rgb(5, 5, 61);
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-family: Ink Free;
+    text-align-last: center;
+    color: rgb(5, 5, 61)
+}
+
+h5 {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    text-align-last: center;
+}
+
+form {
+    background: grey;
+    font-size: 15px;    
+    border: thick double black;
+    padding: 40px;
+}
+
+form button {
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    cursor: pointer;
+    color: white;
+    transition: 500ms;  
+    padding: 10px;  
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: black;    
+}
+
+fieldset h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;    
+}
+
+fieldset legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;    
+}
+
+.required:after {
+    content: "*";
+    color: rgb(168, 5, 5);
+}
+
+
+
+
+    
+    

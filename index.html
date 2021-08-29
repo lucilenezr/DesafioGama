@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Pacifico & display = swap "rel =" stylesheet ">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>    
+
+    <title>JobsNET Oportunidades</title>
+</head>
+
+<body>
+    <div class="flex">
+    <main>
+    <header>  
+        <div id="cabecalho">
+        <div id="logo"><img src="logo.PNG" width="60%"/></div>  
+        <div id="textologo2">
+            <div id="texto"><h1>Conectamos pessoas</h1></div>
+            <div id="logo2"><img src="./empatia-1.png" width="95%" align="right"/></div>
+        </div>        
+        </div>                
+    </header>
+    </div>
+
+        <div id="conteudo">              
+            <h2>Aqui o que conta é o seu talento.</h2><br>            
+            <h5>Venha fazer parte do nosso banco de talentos e ter a oportunidade de fazer a diferença junto com um de nossos parceiros. Faça seu cadastro!</h5>                
+        </div>            
+    </main> 
+
+            
+            <form>
+                <fieldset>
+                    <legend><b>DADOS PESSOAIS</b></legend>
+                        <table cellspacing="20">
+                            <tr><td><label for="name" class="required"><b>Nome Completo:</b></label></td>
+                                <td align="left">
+                                    <input type="text" id="name" name="tName" required>
+                                </td>
+
+                                <td><label for="cargo"><b>Cargo Pretendido: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="cargo" name="tCargo">
+                                </td>
+
+                                <td><label for="profissao" class="required"><b>Profissão: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="profissao" name="tProfissao" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                               <td><label class="required"><b>Nascimento: </b></label></td>
+                                <td align="left">
+                                    <input type="date" required>                                     
+                                </td>
+
+                                <td><label for="estadoCivil"><b>Estado Civil: </b></label></td>
+                                <td align="left">
+                                    <select name="estadoCivil"><br>
+                                        <option>outros</option>
+                                        <option>solteiro</option>
+                                        <option>casado</option>
+                                        <option>separado</option>
+                                        <option>viuvo</option>                                              
+                                </td>
+
+                                <td><label for="idSexo"><b>Sexo: </b></label></td>
+                                <td align="left">
+                                    <select name="idSexo"><br>
+                                        <option>Prefiro não responder</option>
+                                        <option>Feminino</option>
+                                        <option>Masculino</option>                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="endereco" class="required"><b>Endereço: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="endereco" name="tEndereco" required>
+                                </td>
+
+                                <td><label for="numero" class="required"><b>Número: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="numero" name="tnumero" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="bairro" class="required"><b>Bairro: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="bairro" name="tBairro" required>
+                                </td>
+
+                                <td><label for="cidade" class="required"><b>Cidade: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="cidade" name="tCity" required>
+                                </td>
+
+                                <td><label for="estado" class="required"><b>Estado: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="estado" name="tEstado" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="cep" class="required"><b>CEP</b></label></td>
+                                <td align="left">
+                                    <input type="text" id="cep" name="tCep" required>
+                                </td>
+
+                                <td><label for="telefone"><b>Telefone fixo 1: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="telefone" name="tTelefone">
+                                </td>
+
+                                <td><label for="telefoneFixo"><b>Telefone fixo 2: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="telefoneFixo" name="tTelefoneFixo">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="celular" class="required"><b>Celular: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="celular" name="tCelular" required>
+                                </td>
+
+                                <td><label for="contato"><b>Contato: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="contato" name="tContato">
+                                </td>
+
+                                <td><label for="email" class="required"><b>E-mail: </b></label></td>
+                                <td align="left">
+                                    <input type="email" id="email" name="tEmail" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>                                    
+                                     <h4 align="left"></h4> <b>DOCUMENTOS</b> 
+                                     <hr width="1000%"></hr>                                     
+                                 </td>                                 
+                            </tr>
+                               
+                            <tr>
+                                <td><label for="identidade" class="required"><b>Identidade: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="identidade" name="tIdentidade" required>
+                                </td>
+
+                                <td><label for="cpf" class="required"><b>CPF: </b></label></td>
+                                <td align="left">
+                                    <input type="text" id="cpf" name="tCpf" required>
+                                </td>
+
+                                <td><label for="veiculo"><b>Possui Veículo: </b></label></td>
+                                <td align="left">
+                                    <select name="veiculo"><br>
+                                        <option> Não </option>
+                                        <option> Sim </option>                                                                                    
+                                 </td>
+
+                                 <td><label for="habilitacao"> <b> Habilitação: </b></label></td>
+                                 <td align="left">
+                                    <select name="habilitacao"><br>
+                                        <option> Não </option>
+                                        <option> Sim </option>                                                                                    
+                                 </td>
+                            </tr>
+
+                            <tr>                
+                                <td><button type="submit" ><b>Salvar</b></button></td>                       
+                            </tr>          
+                </fieldset>
+            </form>  
+
+            <script src="main.js"></script>
+</body>
+</html>
